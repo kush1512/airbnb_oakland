@@ -75,7 +75,7 @@ if box == "Project Overview":
     <div style="background-color:#FFE6A0 ;padding:10px">
     <p> <h3> Dataset procured from <a href= "http://insideairbnb.com/get-the-data.html" target="_blank"> http://insideairbnb.com/get-the-data.html </a>  </h3></p>
     <br>
-    <p> <h3> You can view the solutions python notebook <a href="https://colab.research.google.com/drive/1FL1ZW0hPtTUbL70j6WuA3uEC5_Wu54Mi" target="_blank">HERE </a> </h3> </p>
+    <p> <h3> You can view the solutions python notebook <a href="https://colab.research.google.com/drive/1lrotcDSdJcZsgHuk9KzUTDn-UD5uywwK#scrollTo=q1kKAQhvnex1">HERE </a> </h3> </p>
     
     """
     st.markdown(html_temp_2, unsafe_allow_html=True)
