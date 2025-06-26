@@ -290,11 +290,11 @@ if box == "Model Building":
     st.markdown("We shall now observe the performance of a Neural Network with L1 regularization for the given task. We will use ReLU activation function, a linear function for the output layer and a mean sqaured loss as this is a regression task.")
     st.markdown("<br>", unsafe_allow_html=True)
     
-    im23 = Image.open('Capture-nn.jpg')
+    im23 = Image.open('capture-nn.jpg')
     st.image(im23, caption = "The structure of the Keras neural network built to fit our task")
     st.markdown("<br>", unsafe_allow_html=True)
     
-    im24 = Image.open('Capture-nn-f.jpg')
+    im24 = Image.open('capture-nn-f.jpg')
     st.image(im24, caption="Loss and error at the completion of run epochs" )
     st.markdown("<br>", unsafe_allow_html=True)
     
