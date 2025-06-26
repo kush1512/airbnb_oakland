@@ -197,11 +197,11 @@ if box == "Feature Engineering":
     """
     st.markdown(html_11, unsafe_allow_html=True)
     
-    im13 = Image.open('Capture1.jpg')
+    im13 = Image.open('capture1.jpg')
     st.image(im13, caption="Document Term matrix")
     st.markdown("<br>", unsafe_allow_html=True)
     
-    im14 = Image.open('Capture2.jpg')
+    im14 = Image.open('capture2.jpg')
     st.image(im14, caption="Sparse representation dataframe")
     st.markdown("This sparse representation form will benefit us over one-hot encoding, as we wish to see each of the terms of the features weightage on the price prediction model", unsafe_allow_html=True)
     st.markdown("Apart from Amenities, the rest of the free-text features will be dropped,as well as the redundant ones after analysisng all multi-collinearities")
