@@ -72,7 +72,7 @@ if box == "Project Overview":
     
     st.markdown("#")
     html_temp_2 = """
-    <div style="background-color:#FFE6A0 ;padding:10px">
+    <div style="background-color:#00003f ;padding:10px">
     <p> <h3> Dataset procured from <a href= "http://insideairbnb.com/get-the-data.html" target="_blank"> http://insideairbnb.com/get-the-data.html </a>  </h3></p>
     <br>
     <p> <h3> You can view the solutions python notebook <a href="https://colab.research.google.com/drive/1lrotcDSdJcZsgHuk9KzUTDn-UD5uywwK#scrollTo=q1kKAQhvnex1">HERE </a> </h3> </p>
@@ -89,7 +89,7 @@ if box == "EDA":
     
     st.header("Useful metrics and insights")
     html_5 = """
-    <div style="background-color:#FFE6A0 ;padding:10px">
+    <div style="background-color:#00003f ;padding:10px">
     <p> <h3> Publically available airbnb data has to be preprocessed before automating processes to analyze it and derive insights. We begin by assesing missing values,
     dropping and formatting unwanted features, and formatting feature values to suitable datatypes. After this we can begin with the actual analysis.</h3></p>
     <br>    
@@ -182,7 +182,7 @@ if box == "Feature Engineering":
     
     st.header("Feature data formatting and extraction")
     html_10 = """
-    <div style="background-color:#FFE6A0 ;padding:10px">
+    <div style="background-color:#00003f ;padding:10px">
     <p> <h3> In order to build a model for our use-case of price prediction, we need to correctly identify the key correlators in the data and format the input type to get
     the maximum positive feedback from the model. Thus we shall look at the creation and removal of existing features using statistical modelling and NLP techniques, in order to prime the dataset.</h3></p>
     <br>    
@@ -224,7 +224,7 @@ if box == "Model Building":
     
     st.header("Building and selecting appopriate prediction models for our use-case")
     html_12 = """
-    <div style="background-color:#FFE6A0 ;padding:10px">
+    <div style="background-color:#00003f ;padding:10px">
     <p> <h3> For this prediction problem , we shall look into building a strong fitting regression model using various novel techniques at hand. Beginning with a simple
     linear regresison as a baseline model, we will look into solving the same with Support Vector Machines, Ensemble Decision Tree based model and lastly a Neural Network.
     we will benchmark and evaluate all before settling on the most likely accurate predictor.</h3></p>
@@ -319,7 +319,7 @@ if box == "Model Building":
 
 elif box == "Price Prediction":
     html_temp_3 = """
-    <div style="background-color:#FFE6A0 ;padding:10px">
+    <div style="background-color:#00003f ;padding:10px">
     <p> <h2> Get the price estimate of a listing based on user preferences </h2></p>
     <br>
     """
