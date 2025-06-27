@@ -48,7 +48,7 @@ if box == "Project Overview":
     
     st.header("An exploratory data analysis and price prediction project")
     html_temp = """
-    <div style="background-color:#FFE6A0 ;padding:10px">
+    <div style="background-color:#00003f ;padding:10px">
     <ul>
          <li> <h3> Analysing key features and metrics from house listing data </h3> </li>
          <li> <h3> Feature extraction using statistical modelling and NLP techniques </h3> </li>
